@@ -1,0 +1,54 @@
+            CSIM Simulation Report (Version 19.0 for SPARC Solaris)
+
+                                  M/M/1 Queue
+
+                           Thu Dec 11 14:30:10 2014
+
+
+                     Ending simulation time:      2069.165
+                     Elapsed simulation time:     2069.165
+                     CPU time used (seconds):        0.040
+
+
+FACILITY SUMMARY 
+
+facility     service    service          through-    queue     response   compl
+name           disc      time    util.     put       length      time     count
+--------------------------------------------------------------------------------
+facility 0   fcfs       1.00664  0.490    0.48667    0.97041    1.99399     1007
+facility 1   fcfs       1.00443  0.488    0.48619    0.88334    1.81687     1006
+facility 2   fcfs       1.05444  0.512    0.48570    1.08402    2.23186     1005
+facility 3   fcfs       0.98964  0.480    0.48522    0.97074    2.00063     1004
+facility 4   fcfs       1.03350  0.501    0.48474    0.98679    2.03572     1003
+facility 5   fcfs       0.98766  0.479    0.48474    0.86670    1.78797     1003
+facility 6   fcfs       0.99016  0.480    0.48474    0.92367    1.90551     1003
+facility 7   fcfs       0.93681  0.453    0.48329    0.86464    1.78909     1000
+
+
+
+TABLE 1:  system table
+
+      minimum         2.270216          mean                   15.575784
+      maximum        33.591413          variance               27.585751
+      range          31.321198          standard deviation      5.252214
+      observations        1000          coefficient of var      0.337204
+
+CSIM MODEL STATISTICS
+
+CPU time used (sec):         0.040 
+Events processed:            13964 
+Memory allocated:            28840 bytes 
+Calls to malloc:                62 
+Processes 
+     Started:                 1009 
+     Saved:                  11649 
+     Terminated:              1000 
+     High water mark:           23 
+Stacks 
+     Allocated:               1031 
+     High water mark:         4349 words 
+     Average:                  192 words 
+     Maximum:                  195 words 
+     Current:                 1619 words 
+
+

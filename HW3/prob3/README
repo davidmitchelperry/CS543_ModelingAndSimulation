@@ -1,0 +1,15 @@
+To build:
+	make sure the CSIM files are in the directory 
+	run make
+
+To Run:
+
+	./p3 GREENAB GREENBA 
+
+Other Files:
+
+	opt.py -- Trys many different combinations of values for 
+		  GREENAB and GREENBA and writes the best
+		  result to res.txt
+
+

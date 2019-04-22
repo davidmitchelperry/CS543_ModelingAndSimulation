@@ -1,0 +1,9 @@
+To build:
+	make sure the CSIM files are in the directory 
+	run make
+
+To Run:
+
+	./p2 seed
+
+
